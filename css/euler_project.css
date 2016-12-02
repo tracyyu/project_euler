@@ -1,0 +1,58 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	border: 1px solid #CCCCCC;
+	padding-left: 15px;
+	position: relative;
+}
+
+.nav-bar {
+	width: 120px;
+	height: 900px;
+	position: relative;
+	float: left;
+	border: 1px solid #CCCCCC;
+	padding-right: 15px;
+}
+
+.nav-bar ul {
+	list-style: none;
+}
+
+.nav-bar li{
+	font-size: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-bar li a {	text-decoration: none;}
+
+
+.main {
+	border: 1px solid #CCCCCC;
+	position: relative;
+	float: left;
+	width: 1278px;
+}
+
+.main div {
+	padding-left: 15px;
+}
+
+.main div p {
+	word-wrap: break-word;
+}
+
+#p1-limit, #p2-limit, #p3-limit {
+	font-size: 15px;
+}
+
+.button {
+	border-radius: 6px;
+	background-color: 	dodgerblue;
+	color: white;
+	font-size: 14px;
+}
